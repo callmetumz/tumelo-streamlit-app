@@ -1,10 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jan 27 17:38:34 2026
-
-@author: BBarsch
-"""
-
+streamlit
+pandas
+numpy
+matplotlib
+plotly
 import subprocess
 
 file = "app.py"
@@ -14,4 +12,5 @@ file = "app.py"
 
 subprocess.Popen(
     ["streamlit", "run", file], shell=True
+
 )
