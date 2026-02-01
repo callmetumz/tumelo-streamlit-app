@@ -1,10 +1,3 @@
-streamlit
-pandas
-numpy
-matplotlib
-plotly
-import subprocess
-
 file = "app.py"
 #file = "app_plots.py"
 #file = "app_profiler.py"
@@ -14,3 +7,4 @@ subprocess.Popen(
     ["streamlit", "run", file], shell=True
 
 )
+
